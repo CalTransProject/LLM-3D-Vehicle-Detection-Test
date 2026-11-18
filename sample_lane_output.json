@@ -1,0 +1,123 @@
+{
+  "frame_id": "march28_demo_frame_001",
+  "coordinate_system": "LiDAR local coordinates; units assumed meters",
+  "lanes": [
+    {
+      "lane_id": "Lane_1",
+      "points": [
+        [
+          0,
+          -3.5,
+          0
+        ],
+        [
+          25,
+          -3.5,
+          0
+        ],
+        [
+          50,
+          -3.5,
+          0
+        ]
+      ]
+    },
+    {
+      "lane_id": "Lane_2",
+      "points": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          25,
+          0,
+          0
+        ],
+        [
+          50,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "lane_id": "Lane_3",
+      "points": [
+        [
+          0,
+          3.5,
+          0
+        ],
+        [
+          25,
+          3.5,
+          0
+        ],
+        [
+          50,
+          3.5,
+          0
+        ]
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle_id": "vehicle_1",
+      "vehicle_type": "Sedan",
+      "vehicle_location_on_frame": [
+        12,
+        -3.2,
+        0.25
+      ],
+      "vehicle_confidence": 0.96,
+      "Vehicle_lane": "Lane_1",
+      "Vehicle_distance_from_lane": 0.3,
+      "Vehicle_nearest_lane_point": [
+        12.0,
+        -3.5
+      ]
+    },
+    {
+      "vehicle_id": "vehicle_2",
+      "vehicle_type": "SUV",
+      "vehicle_location_on_frame": [
+        22,
+        0.35,
+        0.3
+      ],
+      "vehicle_confidence": 0.93,
+      "Vehicle_lane": "Lane_2",
+      "Vehicle_distance_from_lane": 0.35,
+      "Vehicle_nearest_lane_point": [
+        22.0,
+        0.0
+      ]
+    },
+    {
+      "vehicle_id": "vehicle_3",
+      "vehicle_type": "Truck",
+      "vehicle_location_on_frame": [
+        35,
+        3.8,
+        0.4
+      ],
+      "vehicle_confidence": 0.91,
+      "Vehicle_lane": "Lane_3",
+      "Vehicle_distance_from_lane": 0.3,
+      "Vehicle_nearest_lane_point": [
+        35.0,
+        3.5
+      ]
+    }
+  ],
+  "vehicle_count": 3,
+  "lane_vehicle_counts": {
+    "Lane_1": 1,
+    "Lane_2": 1,
+    "Lane_3": 1,
+    "Unassigned": 0
+  }
+}
