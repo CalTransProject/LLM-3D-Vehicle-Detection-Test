@@ -1,0 +1,45 @@
+{
+    "frame_id": "000002",
+    "validation_status": "unverified coordinate meanings and units",
+    "distance_method": "3D Euclidean using assumed xyz",
+    "distance_units": "input units",
+    "reference_object_id": null,
+    "reference_point_type": "temporary test point",
+    "reference_object_location": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "reference_object_size": null,
+    "vehicle_count": 2,
+    "vehicles": [
+        {
+            "vehicle_id": "000002_line_1",
+            "vehicle_id_scope": "this frame only; not a tracking ID",
+            "vehicle_type": "Sedan",
+            "vehicle_location_on_frame": {
+                "x": -5.291433,
+                "y": 13.725142,
+                "z": -0.875277
+            },
+            "vehicle_bounding_box_size": null,
+            "vehicle_distance_from_reference_point": 14.74,
+            "vehicle_confidence": null,
+            "vehicle_lane": null
+        },
+        {
+            "vehicle_id": "000002_line_2",
+            "vehicle_id_scope": "this frame only; not a tracking ID",
+            "vehicle_type": "SUV",
+            "vehicle_location_on_frame": {
+                "x": -3.235384,
+                "y": 15.471224,
+                "z": -0.762504
+            },
+            "vehicle_bounding_box_size": null,
+            "vehicle_distance_from_reference_point": 15.82,
+            "vehicle_confidence": null,
+            "vehicle_lane": null
+        }
+    ]
+}
